@@ -3,14 +3,17 @@
         max-width: 1170px;
     }
 }
+
 @media (min-width: 992px) {
     .header-socials {
         padding-left: 0;
-    list-style: none;
+        list-style: none;
     }
+
     .header-socials li {
         display: inline-block;
     }
+
     .header-socials li:not(:last-child) {
         margin-right: .5rem;
     }
@@ -23,17 +26,26 @@
 }
 
 @media (max-width: 991px) {
+
+    .navbar-sticky.menu_fixed {
+        max-height: 100%;
+    }
+
+    .navbar-sticky.menu_fixed .navbar-brand img {
+        max-height: 80px;
+        margin: 0;
+        padding: 0;
+        background: none;
+    }
+
     .navbar-collapse {
         padding-left: 20px;
         padding-block: 20px;
         background: #000;
     }
-    .header-socials {
-        display: grid;
-        gap: 10px;
-        width: 100%;
-        max-width: 100px;
-        grid-template-columns: repeat(2, 1fr);
+
+    .header-social-btns {
+        display: none;
     }
 }
 
@@ -58,6 +70,7 @@
 }
 
 @media (max-width: 768px) {
+
     .navbar-nav .nav-link {
         padding: 10px 0px;
     }
