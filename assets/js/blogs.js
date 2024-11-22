@@ -2,7 +2,7 @@ const blogData = {
   1: {
     title: "The Healing Power of Vulnerability",
     date: "Jan 15, 2023",
-    img: "assets/images/blog-1.jpg",
+    img: "assets/images/blog-1.png",
     content: [
       "In today’s fast-paced world, there’s often a pressure to appear strong and composed. However, accepting vulnerability can be a transformative experience. When we allow ourselves to be open about our struggles, we not only lighten our own burdens but also create space for others to do the same.",
 
@@ -16,7 +16,7 @@ const blogData = {
   2: {
     title: "Advocating for Mental Health in Education",
     date: "Jan 15, 2023",
-    img: "assets/images/blog-2.jpg",
+    img: "assets/images/blog-2.png",
     content: [
       "Sheetal Smith-Batish’s <b><em>Trapped in Education</em></b> sheds light on a vital issue: mental health in the teaching profession. Her story illustrates the challenges many educators face and the importance of advocating for mental well-being.",
 
@@ -30,7 +30,7 @@ const blogData = {
   3: {
     title: "Finding Balance “The Teacher’s Journey”",
     date: "Jan 15, 2023",
-    img: "assets/images/blog-3.jpg",
+    img: "assets/images/blog-3.png",
     content: [
       "Teaching is a rewarding yet demanding profession. Many educators, like Sheetal Smith-Batish, often find themselves juggling the responsibilities of their roles while managing personal challenges. Striking a balance between work and home life can feel like an uphill battle, but it’s essential for long-term well-being.",
 
@@ -44,7 +44,7 @@ const blogData = {
   4: {
     title: "Lessons Learned from Trapped in Education",
     date: "Jan 15, 2023",
-    img: "assets/images/blog-4.jpg",
+    img: "assets/images/blog-4.png",
     content: [
       "In Trapped in Education, Sheetal Smith-Batish takes us on a heartfelt journey through the life of a teacher facing challenges like burnout, motherhood, and mental health. Her story resonates with anyone in education, offering valuable lessons that can inspire positive change in our teaching practices and overall well-being.",
 
