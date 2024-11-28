@@ -1,0 +1,18 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Ensure the RewriteBase is set correctly for your root directory
+RewriteBase /
+
+# Remove .html extension from URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+)$ $1.html [L]
+
+# Redirect requests for index.html to the base URL
+RewriteCond %{THE_REQUEST} /index\.html [NC]
+RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
+
+# Redirect requests for index to the base URL
+RewriteCond %{THE_REQUEST} /index [NC]
+RewriteRule ^(.*)index$ /$1 [R=301,L]
