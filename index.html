@@ -13,6 +13,12 @@
   <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
   <link rel="stylesheet" href="assets/css/animate.css">
   <link href="assets/lineicons-4.0-basic-free/web-font-files/lineicons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -83,7 +89,7 @@
                 mental health, encouraging us all to face our journeys with courage and determination.
               </p>
               <a href="https://www.amazon.co.uk/Trapped-Education-leadership-classroom-recovery/dp/0228842611?fbclid=IwY2xjawGZzYdleHRuA2FlbQIxMAABHTO-bDKmNm9S-KCOHa83FMXPYjbXWPAQfzK99yvo7TggCpWkDuackY_Mxw_aem_TAyhDWH_n_rnVr2H0ViGbg"
-                  target="_blank" class="btn btn-white"><i class="lni lni-inbox mr-2"></i> Get the Book Now</a>
+                target="_blank" class="btn btn-white"><i class="lni lni-inbox mr-2"></i> Get the Book Now</a>
             </div>
           </div>
           <div class="col-md-12 col-lg-5 col-xl-5">
@@ -175,7 +181,8 @@
           </div>
           <div class="col-12">
             <div class="iframely-embed">
-              <div class="iframely-embed">
+              <div class="iframely-embed position-relative">
+                <div class="nexus"></div>
                 <div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a
                     href="https://nexus-education.com/author/sss/"
                     data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fnexus-education.com%2Fauthor%2Fsss%2F%3Ffbclid%3DIwY2xjawGZzYtleHRuA2FlbQIxMAABHTO-bDKmNm9S-KCOHa83FMXPYjbXWPAQfzK99yvo7TggCpWkDuackY_Mxw_aem_TAyhDWH_n_rnVr2H0ViGbg%23&key=9caac02b031a3dd0cc67a4e7e8a40e60"></a>
@@ -199,7 +206,7 @@
             <div class="download-btn">
               <p>Available Now :</p>
               <a href="https://www.amazon.co.uk/Trapped-Education-leadership-classroom-recovery/dp/0228842611?fbclid=IwY2xjawGZzYdleHRuA2FlbQIxMAABHTO-bDKmNm9S-KCOHa83FMXPYjbXWPAQfzK99yvo7TggCpWkDuackY_Mxw_aem_TAyhDWH_n_rnVr2H0ViGbg"
-                target="_blank" class="btn btn-black d-block">
+                target="_blank" class="btn btn-black d-block  mb-lg-0 mb-3">
                 <i class="lni lni-amazon mr-2"></i>Get it on Amazon
               </a>
             </div>
@@ -336,6 +343,11 @@
         </div>
       </div>
     </section>
+    <section class="platforms py-5">
+      <div class="container-fluid">
+        <div class="ads_sponsors" id="prSlider"></div>
+      </div>
+    </section>
   </main>
   <footer class="footer">
     <div class="footer-mid">
@@ -379,7 +391,7 @@
             </p>
           </div>
           <div class="col-xl-6 col-sm-12 col-lg-6 col-md-6">
-            <div class="footer-btm-links text-left text-lg-right">
+            <div class="footer-btm-links text-center text-lg-right">
               <a href="#">Legal</a>
               <a href="#">Supports</a>
               <a href="#">Terms</a>
@@ -402,6 +414,45 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/owl.carousel.min.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/js/pr.js"></script>
+  <script>
+    $(".ads_sponsors").slick({
+      infinite: true,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplayspeed: 1,
+      arrows: false,
+      dots: false,
+      nav: false,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            arrows: false,
+            slidesToShow: 4
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            slidesToShow: 4
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            slidesToShow: 3
+          }
+        }
+      ]
+    });
+  </script>
 
 </body>
 

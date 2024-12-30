@@ -77,6 +77,7 @@
 
     .navbar-sticky .navbar-brand {
         width: 30%;
+        margin-left: 10px;
     }
 
     .banner-content h1 {
@@ -118,6 +119,7 @@
 
     .about-sec2 {
         background-position: center;
+        padding-top: 0;
     }
 
     .ab-img-item:first-child {
@@ -133,6 +135,35 @@
     .ab-img-item:nth-child(3) {
         grid-row: 1/2;
         grid-column: 3/4;
+    }
+
+    .nexus {
+        width: 112px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    .copyright a {
+        display: block;
+    }
+
+    .footer-btm-links a {
+        margin-inline: 10px;
+        padding-inline: 10px;
+    }
+
+    .footer-btm-links {
+        margin-top: 10px;
+    }
+
+    .blog-card.card {
+        margin-block: 10px;
+    }
+
+    .download-btn {
+        margin-bottom: 10px;
     }
 }
 
